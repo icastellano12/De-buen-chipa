@@ -336,12 +336,16 @@ select {
         font-size: 2rem;
     }
 
+    .chipa{
+        display: block;
+    }
+
     .contenido .chipa p {
         font-size: 2rem;
     }
     .contenido .chipa img{
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
     }
     .menu-area ul {
         flex-wrap: wrap;
