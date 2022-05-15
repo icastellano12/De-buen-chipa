@@ -33,6 +33,7 @@ html {
     grid-area: cabeza;
 }
 
+
 .menu-area ul li img {
     width: 15rem;
 }
@@ -75,6 +76,7 @@ html {
     visibility: hidden;
     background: #BC3C32;
     width: 100%;
+    z-index: 1;
 }
 
 .submenu li {
@@ -164,7 +166,19 @@ html {
     border-radius: 30px;
     padding: 20px 20px;
     width: 30%;
+    /* transition: transform 1s; */
+    filter: grayscale(100%);
+    transition: all .5s;
+     }
+
+.chipa img:hover {
+    /* transform: scale(1.2); */
+    filter: grayscale(0);
+    transform: scale(1.1);
+    z-index: 2;
+    cursor: pointer;
 }
+
 
 .chipa p {
     color: black;
