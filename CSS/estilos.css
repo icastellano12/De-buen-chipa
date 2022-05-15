@@ -347,11 +347,15 @@ select {
     .contenido .hacemos h1,
     p {
         font-size: 2rem;
+        padding: 2px;
+        margin: 2px;
     }
 
     .contenido section h1,
     p {
         font-size: 2rem;
+        padding: 2px;
+        margin: 2px;
     }
 
     .chipa{
@@ -360,6 +364,8 @@ select {
 
     .contenido .chipa p {
         font-size: 2rem;
+        padding: 2px;
+        margin: 2px;
     }
     .contenido .chipa img{
         width: 100%;
@@ -382,10 +388,8 @@ select {
         flex-wrap: wrap;
         justify-content: center;
         align-self: flex-start;
-    }
-    .pie .pie social {
-        flex-wrap: wrap;
-        align-self: flex-start;
+        width: auto;
+        height: auto;
     }
     .contenido iframe {
         width: 90%;
