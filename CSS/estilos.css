@@ -322,12 +322,13 @@ select {
 @media screen and (max-width: 768px) {
     .contenedordos {
         flex-wrap: wrap;
-        grid-template-areas: "cabeza"
+        /* grid-template-areas: "cabeza"
             "cabeza"
             "contenido"
             "contenido"
             "pie"
-            "pie";
+            "pie"; */
+
     }
 
     .portada img {
@@ -338,6 +339,9 @@ select {
 
     .video {
         width: 70%;
+        height: auto;
+        padding: 5px;
+        margin: 5px;
     }
 
     .contenido .hacemos h1,
@@ -364,13 +368,29 @@ select {
     .menu-area ul {
         flex-wrap: wrap;
     }
-
+    .chipa video{
+        width: 70%;
+        height: auto;
+        padding: 5px;
+        margin: 5px;
+    }
+    .contacto img{
+        width: 70%;
+        height: auto;
+    }
     .pie {
         flex-wrap: wrap;
         justify-content: center;
         align-self: flex-start;
     }
-
+    .pie .pie social {
+        flex-wrap: wrap;
+        align-self: flex-start;
+    }
+    .contenido iframe {
+        width: 90%;
+        height: auto;
+    }
     .formulario {
         width: 70%;
     }
